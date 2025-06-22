@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Crop Tycoon</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>🌾 Crop Tycoon</h1>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    <div id="ui">
+        <p>Money: <span id="money">0</span> 💰</p>
+        <p>Crop Speed Level: <span id="speedLevel">1</span></p>
+        <button id="upgradeSpeedBtn">Upgrade Crop Speed (Cost: 50)</button>
+    </div> <!-- 🛠 NEW TOOL UI -->
+    <div>
+      Tool Level: <span id="toolLevel">1</span>
+      <button id="upgradeToolBtn">Upgrade Tool (Cost: 100)</button>
+    </div>
+  </div>
+
+    <script src="save.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>

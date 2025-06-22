@@ -1,0 +1,34 @@
+body {
+    background-color: #d0f0c0;
+    font-family: "Segoe UI", sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+canvas {
+    width: 800px !important;
+    height: 600px !important;
+    image-rendering: pixelated; /* for crisp pixel art */
+    display: block;
+    margin: 0 auto;
+    background-color: #333;
+}
+
+#ui {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
